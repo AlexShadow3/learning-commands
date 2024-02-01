@@ -107,7 +107,7 @@ touch test.txt
 Cette commande (lancée dans notre dossier `Shell`) devrait créer un fichier `test.txt` dans notre dossier `Shell`. Simple, pas vrai ?
 Pour la suite je vous demanderais d'écrire quelque chose dans ce fichier.
 
-Le text suivant est très long, mais vous pouvez aussi télécharger le fichier [ici](https://github.com/alexshadow3/learning-commands/Shell/test.txt).
+Le text suivant est très long, mais vous pouvez aussi télécharger le fichier [ici](https://github.com/AlexShadow3/learning-commands/blob/master/Shell/test.txt).
 
 ```txt
 Ada était la seule fille légitime du poète George Gordon Byron et de son épouse Annabella Milbanke, une femme intelligente et cultivée, cousine de Caroline Lamb, dont la liaison avec Byron fut à l'origine d'un scandale.
