@@ -4,7 +4,7 @@ Envie d'apprendre les commandes basiques de ton terminal ou de développer de no
 
 ## Prérequis
 
-Pour la partie Git, il vous faudra installer [Git](https://git-scm.com/downloads/win) (Windows), [Git](https://git-scm.com/download/mac) (MacOS) ou [Git](https://git-scm.com/downloads/linux).
+Pour la partie Git, il vous faudra installer [Git](https://git-scm.com/downloads/win) (Windows), [Git](https://git-scm.com/download/mac) (MacOS) ou [Git](https://git-scm.com/downloads/linux) (Linux).
 
 **Pour accéder aux README.md de chaque dossier, cliquez sur les liens suivants**
 

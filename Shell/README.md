@@ -35,7 +35,7 @@ Prêt pour partir à la découverte des commandes Shell ? C'est parti !
 
 ### Introduction
 
-Bienvenue dans ce cours conçu pour vous apprendre les commandes de base de votre terminal. Vous pourrez ainsi apprendre à vous déplacer dans vos dossiers, créer des fichiers, les modifier, les supprimer, etc.
+Bienvenue dans ce guide conçu pour vous apprendre les commandes de base de votre terminal. Vous pourrez ainsi apprendre à vous déplacer dans vos dossiers, créer des fichiers, les modifier, les supprimer, etc.
 Pour commencer, ouvrez votre `Explorateur de fichier` (Windows) ou votre `Finder` (MacOS). Créez un nouveau dossier `commandes` dans le dossier de votre choix puis créez deux nouveaux dossiers `Shell` et `Git` dans le dossier `commandes`.
 
 Nous pouvons commencer, tout d'abord, ouvrez votre terminal, vous devriez voir quelque chose comme ceci :
