@@ -26,6 +26,12 @@ Prêt pour partir à la découverte des commandes Shell ? C'est parti !
     - [grep](#grep)
     - [more](#more)
     - [less](#less)
+    - [man](#man)
+    - [D'autres commandes](#dautres-commandes)
+    - [clear](#clear)
+      - [exit](#exit)
+      - [sudo](#sudo)
+      - [history](#history)
   - [Partie 2](#partie-2)
   - [Dictionnaire](#dictionnaire)
 
@@ -36,9 +42,12 @@ Prêt pour partir à la découverte des commandes Shell ? C'est parti !
 ### Introduction
 
 Bienvenue dans ce guide conçu pour vous apprendre les commandes de base de votre terminal. Vous pourrez ainsi apprendre à vous déplacer dans vos dossiers, créer des fichiers, les modifier, les supprimer, etc.
-Pour commencer, ouvrez votre `Explorateur de fichier` (Windows) ou votre `Finder` (MacOS). Créez un nouveau dossier `commandes` dans le dossier de votre choix puis créez deux nouveaux dossiers `Shell` et `Git` dans le dossier `commandes`.
+En informatique, un "shell" (à ne pas confondre avec "coquillage" en français) est un programme qui fournit une interface entre l'utilisateur et le système d'exploitation d'un ordinateur. Il permet à l'utilisateur de donner des commandes à l'ordinateur en utilisant un langage de ligne de commande. Le shell interprète ces commandes et les exécute, permettant ainsi à l'utilisateur d'effectuer différentes tâches telles que la navigation dans le système de fichiers, le lancement de programmes, la gestion des fichiers, etc. En résumé, le shell est une sorte de "coquille" autour du noyau de l'ordinateur, offrant un moyen pratique de communiquer avec lui.
 
-Nous pouvons commencer, tout d'abord, ouvrez votre terminal, vous devriez voir quelque chose comme ceci :
+Pour commencer, ouvrez votre `Explorateur de fichier` (Windows) ou votre `Finder` (MacOS). Créez un nouveau dossier `commandes` dans le dossier de votre choix puis créez un nouveau dossier `Shell` dans le dossier `commandes`.
+
+Nous pouvons maintenant commencer.
+Tout d'abord, ouvrez votre terminal, vous devriez voir quelque chose comme ceci :
 
 Sur Windows :
 
@@ -54,6 +63,8 @@ Sur MacOS ou Linux :
 /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### cd
 
 Pour commencer, nous allons faire simple avec la commande `cd`. Celle ci permet de se déplacer dans un dossier. Pour cela, il suffit de taper `cd` suivi du nom du dossier dans lequel vous souhaitez vous rendre. Par exemple:
@@ -68,7 +79,15 @@ Vous pouvez aussi reculer d'un dossier en y ajoutant `..`:
 cd ..
 ```
 
+Ou même retourner dans le dossier précédent en y ajoutant `-`:
+
+```bash
+cd -
+```
+
 Mais bien sûr, je dois être dans le dossier `commandes` pour pouvoir me rendre dans le dossier `Shell`. Mais comment savoir où se trouve le dossier `commandes` ?
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### ls
 
@@ -81,6 +100,8 @@ ls
 Cette commande (lancée dans notre dossier `Shell`) devrait renvoyer `README.md`
 
 A vous de jouer ! Essayez de vous rendre dans le dossier `Shell` en utilisant les commandes `cd` et `ls`.
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### pwd
 
@@ -95,6 +116,8 @@ Cette commande (lancée dans notre dossier `Shell`) devrait renvoyer (devrait se
 ```bash
 ..\commandes\Shell || ../commandes/Shell
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### touch
 
@@ -171,6 +194,8 @@ L'École polytechnique fédérale de Lausanne baptise place Ada Lovelace la plac
 L'Ada Lovelace Day est un événement annuel organisé le deuxième mardi d'octobre pour célébrer et sensibiliser aux contributions des femmes aux sciences, et notamment en technologie, en ingénierie et en mathématiques.
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### mkdir
 
 Maintenant, nous allons voir la commande `mkdir`. Celle-ci permet de créer un dossier. Pour cela, il suffit de taper `mkdir` suivi du nom du dossier que vous souhaitez créer. Par exemple:
@@ -180,6 +205,8 @@ mkdir test
 ```
 
 Cette commande (lancée dans notre dossier `Shell`) devrait créer un dossier `test` dans notre dossier `Shell`. Simple, pas vrai ?
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### mv
 
@@ -193,6 +220,8 @@ Nous devrions donc maintenant avoir notre fichier `test.txt` dans notre dossier 
 
 Mince, nous avons oublié de faire une copie de notre fichier. Pas de panique, il existe une commande pour ça !
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### cp
 
 La commande `cp`, utile pour copier un fichier ou un dossier. Pour cela, il suffit de taper `cp` suivi du nom du fichier ou du dossier que vous souhaitez copier, puis du chemin vers le dossier dans lequel vous souhaitez le copier. Par exemple:
@@ -204,6 +233,8 @@ cp test/test.txt ../Shell
 Nous devrions donc maintenant retrouver notre fichier `test.txt` dans notre dossier `Shell`.
 C'est bien drôle tout ça mais nous devons faire de la place sur notre ordinateur. Supprimons donc notre fichier `test.txt` et notre dossier `test`.
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### rm
 
 Premièrement, la commande `rm`. Celle-ci permet de supprimer un fichier. Pour cela, il suffit de taper `rm` suivi du nom du fichier que vous souhaitez supprimer. Placez vous dans le dossier `test` et tapez:
@@ -213,6 +244,8 @@ rm test.txt
 ```
 
 Nous avons désormais un dossier vide !
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### rmdir
 
@@ -226,6 +259,8 @@ Petite spécificité de cette commande, elle ne fonctionne que si le dossier est
 
 Faisons un petit détour et testons une commande... utile ?
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### echo
 
 La commande `echo` permet d'afficher du texte dans le terminal. Pour cela, il suffit de taper `echo` suivi du texte que vous souhaitez afficher. Par exemple:
@@ -236,6 +271,8 @@ echo "Hello World !"
 
 Affichera... `Hello World !` dans votre terminal. Magique, non ?
 Une autre commande de ce type serait...
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### cat
 
@@ -257,6 +294,8 @@ Vous avez désormais un fichier `text3.txt` avec comme contenu le contenu de `te
 
 Compliqué cette commande nan ? Revenons sur quelque chose de plus cool.
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### grep
 
 Celle-ci s'appelle `grep`. Elle permet de rechercher un mot dans un fichier. Pour cela, il suffit de taper `grep` suivi du mot que vous souhaitez rechercher, puis du nom du (ou des) fichier(s) dans lequel vous souhaitez le rechercher. Par exemple:
@@ -265,6 +304,8 @@ Celle-ci s'appelle `grep`. Elle permet de rechercher un mot dans un fichier. Pou
 grep "Ada" test.txt
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### more
 
 La commande `more` permet d'afficher le contenu d'un fichier, mais de manière plus lisible. Pour cela, il suffit de taper `more` suivi du nom du fichier que vous souhaitez afficher. Par exemple:
@@ -272,6 +313,8 @@ La commande `more` permet d'afficher le contenu d'un fichier, mais de manière p
 ```bash
 more test.txt
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### less
 
@@ -283,9 +326,47 @@ less test.txt
 
 Vous voyez la différence ? Non ? Essayez de faire défiler le contenu du fichier avec les flèches de votre clavier. Vous devriez voir que `less` permet de faire défiler le contenu du fichier, contrairement à `more` qui affiche tout le contenu du fichier d'un coup.
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+### man
+
+L'une des commandes essentielles à connaître, `man`. Cette commande affiche un 'guide' selon la commande choisie.
+
+```bash
+man ls
+```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+### D'autres commandes
+
+### clear
+
+La commande `clear` permet de nettoyer le terminal. Pour cela, il suffit de taper `clear`.
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+#### exit
+
+Comme son nom l'indique, la commande `exit` permet de quitter le terminal. Pour cela, il suffit de taper `exit`.
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+#### sudo
+
+Cette commande spéciale correspond au `Superuser`, un genre d'administrateur.
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+#### history
+
+Comme son nom l'indique, la commande `history` permet de visualiser un historique des commandes passées.
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Partie 2
 
-A suivre...
+Nous allons dans cette deuxième partie, voir les différents paramètres des commandes que nous avons vu précédemment.
 
 ## Dictionnaire
 
