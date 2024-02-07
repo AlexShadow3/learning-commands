@@ -6,7 +6,7 @@ Prêt pour partir à la découverte des commandes Shell ? C'est parti !
 
 <details>
 <summary style="font-size:150%">
-    Table des matières 📖
+  Table des matières 📖
 </summary>
 
 - [SHELL](#shell)
@@ -30,9 +30,8 @@ Prêt pour partir à la découverte des commandes Shell ? C'est parti !
     - [D'autres commandes](#dautres-commandes)
     - [clear](#clear)
       - [exit](#exit)
-      - [sudo](#sudo)
       - [history](#history)
-  - [Partie 2](#partie-2)
+      - [sudo](#sudo)
   - [Dictionnaire](#dictionnaire)
 
 </details>
@@ -42,7 +41,8 @@ Prêt pour partir à la découverte des commandes Shell ? C'est parti !
 ### Introduction
 
 Bienvenue dans ce guide conçu pour vous apprendre les commandes de base de votre terminal. Vous pourrez ainsi apprendre à vous déplacer dans vos dossiers, créer des fichiers, les modifier, les supprimer, etc.
-En informatique, un "shell" (à ne pas confondre avec "coquillage" en français) est un programme qui fournit une interface entre l'utilisateur et le système d'exploitation d'un ordinateur. Il permet à l'utilisateur de donner des commandes à l'ordinateur en utilisant un langage de ligne de commande. Le shell interprète ces commandes et les exécute, permettant ainsi à l'utilisateur d'effectuer différentes tâches telles que la navigation dans le système de fichiers, le lancement de programmes, la gestion des fichiers, etc. En résumé, le shell est une sorte de "coquille" autour du noyau de l'ordinateur, offrant un moyen pratique de communiquer avec lui.
+
+En informatique, un [Shell](https://fr.wikipedia.org/wiki/Interface_syst%C3%A8me) (à ne pas confondre avec "coquillage" en français) est un programme qui fournit une interface entre l'utilisateur et le système d'exploitation d'un ordinateur. Il permet à l'utilisateur de donner des commandes à l'ordinateur en utilisant un langage de ligne de commande. Le shell interprète ces commandes et les exécute, permettant ainsi à l'utilisateur d'effectuer différentes tâches telles que la navigation dans le système de fichiers, le lancement de programmes, la gestion des fichiers, etc. En résumé, le shell est une sorte de "coquille" autour du noyau de l'ordinateur, offrant un moyen pratique de communiquer avec lui.
 
 Pour commencer, ouvrez votre `Explorateur de fichier` (Windows) ou votre `Finder` (MacOS). Créez un nouveau dossier `commandes` dans le dossier de votre choix puis créez un nouveau dossier `Shell` dans le dossier `commandes`.
 
@@ -352,21 +352,21 @@ Comme son nom l'indique, la commande `exit` permet de quitter le terminal. Pour 
 
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-#### sudo
-
-Cette commande spéciale correspond au `Superuser`, un genre d'administrateur.
-
-![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
 #### history
 
 Comme son nom l'indique, la commande `history` permet de visualiser un historique des commandes passées.
 
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Partie 2
+#### sudo
 
-Nous allons dans cette deuxième partie, voir les différents paramètres des commandes que nous avons vu précédemment.
+Cette commande spéciale correspond au `Superuser`, un genre d'administrateur. Pour l'utiliser, il vous suffit simplement de rajouter `sudo` devant votre commande.
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- ## Partie 2
+
+Nous allons dans cette deuxième partie, voir les différents paramètres des commandes que nous avons vu précédemment. -->
 
 ## Dictionnaire
 

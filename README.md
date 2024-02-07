@@ -13,6 +13,8 @@ Pour la partie Git, il vous faudra installer [Git](https://git-scm.com/downloads
 Libre à vous de choisir l'ordre dans lequel vous souhaitez apprendre les commandes. Cependant, je vous conseille de suivre l'ordre suivant :
 
 - [Les commandes Shell](https://github.com/AlexShadow3/learning-commands/blob/master/Shell/README.md)
-- [Les commandes Git](https://github.com/AlexShadow3/learning-commands/blob/master/Git/README.md) (EN COURS DE CONCEPTION)
+- [Les commandes Git](https://github.com/AlexShadow3/learning-commands/blob/master/Git/README.md)
+
+Vous pourrez trouver un dictionnaire à la fin de chacun des README
 
 N'oubliez pas de laisser une ⭐ si vous avez aimé ce guide !
