@@ -340,7 +340,7 @@ man ls
 
 ### D'autres commandes
 
-### clear
+#### clear
 
 La commande `clear` permet de nettoyer le terminal. Pour cela, il suffit de taper `clear`.
 
