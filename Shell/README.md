@@ -36,7 +36,11 @@ Prêt pour partir à la découverte des commandes Shell ? C'est parti !
 
 </details>
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 ## Partie 1
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
 
 ### Introduction
 
