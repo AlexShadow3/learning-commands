@@ -49,7 +49,11 @@ Prêt pour partir à la découverte des commandes Git ? C'est parti !
 
 </details>
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
+
 ## Partie 1
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
 
 ### Introduction
 
@@ -61,6 +65,8 @@ Git est un logiciel de gestion de versions décentralisé. C'est un logiciel lib
 
 ### Les commandes git
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git version
 
 Maintenant que tout est installé, ouvrez bash (<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="15px" alt="Git">, <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="15px" alt="Bash"> ou <img src="https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default" width="15px" alt="Git Bash">) et tapez la commande suivante:
@@ -70,6 +76,8 @@ git --version
 ```
 
 Cette simple petite commande vous permettra de vérifier que `git` est bien installé sur votre machine. Si tout est bon, vous devriez voir apparaître la version de `git` que vous avez installée.
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git config
 
@@ -90,6 +98,8 @@ Vous devriez voir apparaître votre nom et votre adresse mail.
 A noter que `--global` permet de configurer `git` pour tous les projets que vous allez créer. Si vous voulez configurer `git` pour un seul projet, vous pouvez omettre `--global`.
 `--list` quant à lui permet de lister toutes les configurations de `git`.
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git init
 
 Maintenant que tout est configuré, vous allez pouvoir créer votre premier repository. Pour cela, vous allez devoir créer un dossier dans lequel vous allez travailler. Une fois ce dossier créé, tapez la commande suivante:
@@ -97,6 +107,8 @@ Maintenant que tout est configuré, vous allez pouvoir créer votre premier repo
 ```bash
 git init
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git add
 
@@ -108,6 +120,8 @@ git add test.txt
 
 Cette commande permet d'ajouter le fichier `test.txt` à votre repository. Vous pouvez vérifier que le fichier a bien été ajouté en tapant la commande suivante:
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git status
 
 ```bash
@@ -115,6 +129,8 @@ git status
 ```
 
 Cette commande permet de voir l'état de votre repository. Vous devriez voir apparaître le fichier `test.txt` en vert, ce qui signifie que le fichier a bien été ajouté à votre repository (et un fichier modifié mais n'ayant pas été ajouté avec `git add` apparaitra en rouge).
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git clone
 
@@ -134,6 +150,8 @@ git clone https://github.com/AlexShadow3/learning-commands.git
 
 A l'aide de la dernière commande tapée, vous venez de cloner le repository `learning-commands` dans le dossier dans lequel vous vous trouvez.
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git commit
 
 Maintenant que vous avez ajouté un fichier à votre repository, vous allez devoir le valider. Pour cela, tapez la commande suivante:
@@ -150,6 +168,8 @@ git commit -am "Ajout du fichier test.txt"
 
 Cette commande permet de valider le fichier `test.txt` que vous avez ajouté à votre repository. Vous pouvez vérifier que le fichier a bien été validé en tapant la commande suivante:
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git log
 
 ```bash
@@ -157,6 +177,8 @@ git log
 ```
 
 Cette commande permet de voir l'historique des commits que vous avez effectués. Vous devriez voir apparaître le commit que vous venez de faire (dont votre `username`, `email`, la date et l'heure du commit).
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git push
 
@@ -167,6 +189,8 @@ git push origin master
 ```
 
 Cette commande permet de pousser le commit que vous venez de faire sur le repository distant. Vous devriez voir apparaître le fichier `test.txt` sur le repository distant.
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git checkout - switch
 
@@ -191,6 +215,8 @@ Pour faire simple, une branche est une version parallèle de votre repository. V
   Imaginons que vous créiez une branche et qu'un ami à vous crééais lui aussi une branche et que vous faisiez tous les deux des changements sur les mêmes fichiers, alors vous risqueriez de rencontrer des conflits lors de la fusion de vos branches. Pour éviter cela, il est conseillé de communiquer avec votre équipe pour éviter ce genre de situation. Vous pouvez aussi résoudre vous même les conflits mais cela peut être compliqué.
 </h6>
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git remote
 
 La commande permet de voir les repositories distants que vous avez ajoutés à votre repository local. Vous devriez voir apparaître le repository distant que vous avez ajouté.
@@ -204,6 +230,8 @@ Vous pouvez aussi ajouter un repository distant à votre repository local. Pour 
 ```bash
 git remote add origin
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git branch
 
@@ -227,6 +255,8 @@ Vous pouvez aussi renommer une branche. Pour cela, tapez la commande suivante:
 git branch -m nouveau-nom-de-la-branche
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git pull
 
 Cette commande permet de fusionner toutes les modifications présentes sur le repository distant dans le repository local (au cas où votre ami aurait fait des changements sur le repository distant). Pour cela, tapez la commande suivante:
@@ -241,6 +271,8 @@ git pull origin master
 
 Cette commande permet de récupérer les changements effectués sur la branche principale du repository distant (dans ce cas, la branche `master`).
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git merge
 
 Cette commande permet de fusionner une branche avec la branche principale. Pour cela, tapez la commande suivante:
@@ -250,6 +282,8 @@ git merge nom-de-la-branche
 ```
 
 Cette commande permet de fusionner la branche `nom-de-la-branche` avec la branche principale.
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git diff
 
@@ -267,6 +301,8 @@ git diff nom-de-la-branche-1 nom-de-la-branche-2
 git diff
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git tag
 
 Cette commande permet de taguer un commit. Pour cela, tapez la commande suivante:
@@ -277,6 +313,8 @@ git tag 1.1.0 id-du-commit
 
 Cette commande permet de taguer le commit `id-du-commit` avec le tag `1.1.0`.
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git reset - revert
 
 Ces commandes permetent de revenir à un commit précédent. Pour cela, tapez l'une des commandes suivantes:
@@ -286,6 +324,8 @@ git reset --hard HEAD
 git revert id-du-commit
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git rm
 
 Cette commande permet de supprimer un fichier de votre repository. Pour cela, tapez la commande suivante:
@@ -293,6 +333,8 @@ Cette commande permet de supprimer un fichier de votre repository. Pour cela, ta
 ```bash
 git rm nom-du-fichier
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git stash
 
@@ -308,6 +350,8 @@ Vous pouvez aussi récupérer vos modifications en tapant la commande suivante:
 git stash pop
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git show
 
 Cette commande permet de voir les modifications effectuées sur tout fichier `git`. Pour cela, tapez la commande suivante:
@@ -316,6 +360,8 @@ Cette commande permet de voir les modifications effectuées sur tout fichier `gi
 git show 
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git fetch
 
 Cette commande permet d'extraire les changements effectués sur le repository distant. Pour cela, tapez la commande suivante:
@@ -323,6 +369,8 @@ Cette commande permet d'extraire les changements effectués sur le repository di
 ```bash
 git fetch origin
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git ls-tree
 
@@ -334,6 +382,8 @@ git ls-tree HEAD
 
 Vous devriez voir un fichier arborescent avec le nom et le mode de chaque élément.
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git cat-file
 
 Cette commande permet de voir le contenu d'un objet dans la base de données `git`. Pour cela, tapez la commande suivante:
@@ -342,6 +392,8 @@ Cette commande permet de voir le contenu d'un objet dans la base de données `gi
 git cat-file -p id-de-l'objet
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git grep
 
 Cette commande permet de rechercher des chaînes de caractères dans les fichiers de votre repository (tout comme la commande Shell). Pour cela, tapez la commande suivante:
@@ -349,6 +401,8 @@ Cette commande permet de rechercher des chaînes de caractères dans les fichier
 ```bash
 git grep "chaîne-de-caractères"
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### gitk
 
@@ -360,6 +414,8 @@ gitk
 
 Mais il existe aussi d'autres interfaces graphiques pour `git` comme [Github Desktop](https://desktop.github.com/) ou [Git Kraken](https://www.gitkraken.com/).
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git instaweb
 
 Cette commande permet de lancer un serveur web pour visualiser votre repository. Pour cela, tapez la commande suivante:
@@ -368,6 +424,8 @@ Cette commande permet de lancer un serveur web pour visualiser votre repository.
 git instaweb
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git gc
 
 Cette commande permet de nettoyer les fichiers inutiles et les optimiser. Pour cela, tapez la commande suivante:
@@ -375,6 +433,8 @@ Cette commande permet de nettoyer les fichiers inutiles et les optimiser. Pour c
 ```bash
 git gc
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git archive
 
@@ -386,6 +446,8 @@ git archive --format=zip master
 
 Cette commande permet de créer un fichier `.zip` à partir de la branche `master`.
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git prune
 
 Via la commande git prune, les fichiers qui n’ont pas de pointeurs entrants seront supprimés:
@@ -394,12 +456,16 @@ Via la commande git prune, les fichiers qui n’ont pas de pointeurs entrants se
 git prune
 ```
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 #### git fsck
 
 Cette commande permet de vérifier l'intégrité de votre repository. Pour cela, tapez la commande suivante:
 ```bash
 git fsck
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git rebase
 
@@ -408,6 +474,8 @@ Cette commande permet de réécrire l'historique de votre repository. Pour cela,
 ```bash
 git rebase master
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### git help
 
@@ -420,6 +488,8 @@ git help nom-de-la-commande
 
 git help -a
 ```
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Dictionnaire
 
