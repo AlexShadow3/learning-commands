@@ -317,7 +317,7 @@ Cette commande permet de taguer le commit `id-du-commit` avec le tag `1.1.0`.
 
 #### git reset - revert
 
-Ces commandes permetent de revenir à un commit précédent. Pour cela, tapez l'une des commandes suivantes:
+Ces commandes permettent de revenir à un commit précédent. Pour cela, tapez l'une des commandes suivantes:
 
 ```bash
 git reset --hard HEAD
